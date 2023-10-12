@@ -1,0 +1,15 @@
+<app-child-in-child></app-child-in-child>
+<div class="container">
+    <h1 class="main_header">all users data </h1>
+    <div class="cards">
+        <div *ngFor="let user of users" class="user_card">
+            <h1>{{ user.firstName }} {{ user.lastName }}</h1>
+            <p>{{ user.email }}</p>
+            <div class="card_bottom">
+                <i class="fa-regular fa-pen-to-square" (click)="editUser(user)" style="color: #368c3c;"></i>
+                <i class="fa-solid fa-trash" style="color: #cb0d0dda;"></i>
+            </div>
+        </div>
+    </div>
+    
+</div>

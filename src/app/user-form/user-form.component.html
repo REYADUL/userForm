@@ -1,0 +1,13 @@
+<h1 id="main_head">Formcontrol with two way data Binding [(ngModle)]</h1>
+
+<div class="form-container">
+  <form class="form" (ngSubmit)="addUser()" >
+    <label for="firstName">First Name</label>
+    <input type="text" name="firstName" id="" [(ngModel)]="user.firstName">
+    <label for="lasName">Last Name</label>
+    <input type="text" name="lastName" id="" [(ngModel)]="user.lastName" >
+    <label for="email">Email</label>
+    <input type="email" name="email" id="" [(ngModel)]="user.email">
+    <button [disabled]="!(user.firstName&&user.lastName)" [class]="!(user.firstName&&user.lastName) ? 'disable' : 'enable'" (onclick)="addUser()" type="submit">Add User</button>
+  </form>
+</div>

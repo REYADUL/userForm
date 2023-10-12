@@ -1,0 +1,37 @@
+
+
+
+#container {
+    height: 500px;
+    background-color: aqua;
+    position: relative;
+    top: 30px;
+    padding-top: 25px;
+  }
+.boxes{
+    background-color: antiquewhite;
+    height: 300px;
+    /* position: relative; */
+    top:2px;
+    left: 5px;
+}
+.box {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .absolute {
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    background-color: #007bff;
+  }
+  
+  .relative {
+    position: relative;
+    top: 0px;
+    left: 30px;
+    background-color: #20891d;
+  }
+  
+  
