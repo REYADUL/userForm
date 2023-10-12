@@ -1,6 +1,8 @@
 # UserForm
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.4.
+This project was generated with [Angular CLI] version 16.2.4.
+
+here in main component ,two comopnent without child parent relationship.this two component aseembled in app component .and pass data through service class.
 
 ## Development server
 
